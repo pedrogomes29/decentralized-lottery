@@ -24,6 +24,7 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
     }
 
     const entranceFee = networkConfig[chainId]["entranceFee"]
+    console.log(ethers.utils.formatUnits(entranceFee.toString(), "ether").toString())
     const gasLane = networkConfig[chainId]["gasLane"]
     const callBackGasLimit = networkConfig[chainId]["callbackGasLimit"]
     const interval = networkConfig[chainId]["interval"]
