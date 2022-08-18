@@ -18,6 +18,7 @@
         "solidity-coverage": "^0.7.21"
     },
     "scripts": {
-        "prettier": "prettier --write 'contracts/**/*.sol'"
+        "prettier": "prettier --write 'contracts/**/*.sol'",
+        "mockOffchain": "yarn hardhat run scripts/mockOffchain.js --network localhost"
     }
 }
