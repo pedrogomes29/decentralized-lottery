@@ -18,7 +18,7 @@
 
 ```
 git clone https://github.com/pedrogomes29/decentralized-lottery
-cd hardhat-nft-fcc
+cd decentralized-lottery
 yarn
 ```
 
